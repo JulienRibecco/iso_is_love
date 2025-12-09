@@ -1,0 +1,4 @@
+*.love
+*.luac
+.DS_Store
+data/*.dat

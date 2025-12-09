@@ -1,0 +1,8 @@
+{
+    "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+    "runtime.version": "LuaJIT",
+    "runtime.path": ["?.lua", "?/init.lua", "src/?.lua", "src/?/init.lua"],
+    "diagnostics.globals": ["love"],
+    "workspace.library": ["${3rd}/love2d/library"],
+    "type.castNumberToInteger": true
+}
