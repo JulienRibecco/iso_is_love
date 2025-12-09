@@ -1,11 +1,14 @@
--- Central place – every feature is required exactly ONCE here
+-- src/Core/bootstrap.lua
 local PlayerMovement  = require("src.Features.Player.player_movement")
 local PlayerRendering = require("src.Features.Player.player_rendering")
 local PlayerInput     = require("src.Features.Player.player_input")
--- Add new features here later (Combat, World, etc.)
+local World           = require("src.Features.World.world")       -- ← re-added
+local Tools           = require("src.Features.Tools.tools")       -- ← re-added
 
 return {
     PlayerMovement  = PlayerMovement,
     PlayerRendering = PlayerRendering,
     PlayerInput     = PlayerInput,
+    World           = World,
+    Tools           = Tools,
 }

@@ -8,6 +8,7 @@ local Iso           = require "src.core.iso"
 local EntityManager = require "src.ecs.entity_manager"
 
 local World = {}
+local GameState = require("src.Core.game_state")  -- ← make sure this line exists
 World.__index = World
 
 function World.new(width, height)
