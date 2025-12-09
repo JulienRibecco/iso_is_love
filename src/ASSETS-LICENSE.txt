@@ -1,0 +1,4 @@
+All art, music, sound effects, dialogue, level designs, and story content in /Assets/ are
+© 2025 Julien Ribecco — All Rights Reserved.
+You may not redistribute or use these assets in other projects without explicit written permission.
+Code is MIT-licensed separately.
